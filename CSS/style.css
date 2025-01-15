@@ -46,6 +46,8 @@ footer div{
     border-left: 2px solid black;
     padding: 10px;
     height: 100%;
+    width: 20%;
+    flex-wrap: wrap;
 }
 
 footer img{
@@ -219,6 +221,38 @@ p:hover{
     cursor: pointer;
 }
 
+.reseaux {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.reseaux h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.icones {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.icones a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.icones a img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+
+
 @media (max-width: 768px) {
     main{
         width: 90%;
@@ -245,6 +279,14 @@ p:hover{
     }
     .description img{
         display: none;
+    }
+    footer{
+        flex-direction: column;
+        align-items: baseline;
+    }
+    footer div{
+        width: 100%;
+        border-top: 2px solid black;
     }
 }
 
