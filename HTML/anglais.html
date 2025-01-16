@@ -1,50 +1,50 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez la ville d'aix en provence comme jamais auparavant, avec ces itinéraires adaptez à tout vos besoins.">
+    <meta name="description" content="Discover Aix En Provence like never before, with thoses paths adapted to your needs.">
     <title>Accueil</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
     <header>
-        <a href="https://www.aixenprovence.fr/" target="_blank"><img src="IMAGES/aix-logo.png" alt="aix logo"></a>
-        <h1>Découvrez la ville d'Aix En Provence comme jamais auparavant</h1>
-        <div><a href="index.html"><img class="drapeaux" src="IMAGES/france.webp" alt="france"></a><a href="HTML/anglais.html"><img class="drapeaux" src="IMAGES/anglais.png" alt="anglais"></a></div>
+        <a href="https://www.aixenprovence.fr/" target="_blank"><img src="../IMAGES/aix-logo.png" alt="aix logo"></a>
+        <h1>Discover Aix En Provence like never before</h1>
+        <div><a href="../index.html"><img class="drapeaux" src="../IMAGES/france.webp" alt="france"></a><a href="anglais.html"><img class="drapeaux" src="../IMAGES/anglais.png" alt="anglais"></a></div>
     </header>
 
     <main>
         <section>
-            <h2>Découvrir Aix en Provence</h2>
+            <h2>Discover Aix en Provence</h2>
             <article>
-                <h3>Pourquoi ?</h3>
-                <p>Aix-en-Provence est une ville de la région Provence-Alpes-Côte d’Azur qui séduit généralement les adeptes de culture, d’histoire et de nature. Aix-en-Provence est un mélange de plein de choses car elle incarne la beauté avec ses parcs et son architecture marquant son passé riche en événements. Nous avons notamment la cathédrale Saint-Sauveur ou encore le Cours Mirabeau qui est une avenue bordée de platanes, ces lieux font partie des incontournables de la ville. Nous vous invitons à aller voir nos différents itinéraires pour passer une journée remplie de découvertes, que vous soyez étudiant en passant par les seniors. 
+                <h3>Why ?</h3>
+                <p>Aix-en-Provence is a city in the Provence-Alpes-Côte d'Azur region that generally appeals to fans of culture, history and nature. Aix-en-Provence is a mixture of many things, as it embodies beauty with its parks and architecture that mark its eventful past. From the Cathedral Saint-Sauveur to the Cours Mirabeau, an avenue lined with plane trees, Aix-en-Provence has it all. We invite you to take a look at our different itineraries for a day full of discoveries, whether you're a student or a senior citizen. 
                 </p>
             </article>
             <article>
-                <h3>Pour qui ?</h3>
-                <p>Cette ville offre des opportunités de découvertes pour tout type de personnes. Si vous aimez l'art, vous pouvez aller visiter l’atelier du peintre Paul Cézanne. Vous aimez la randonnée ? Les collines de la Montagne Sainte-Victoire, à seulement quelques minutes du centre-ville, vous offriront des randonnées toutes splendides les unes des autres.</p>
-                <p>Vous préférez passer une journée tranquille ? Pas de problème, les parcs ou jardins de la ville pourront vous offrir une tranquillité parfaite, ou alors les balades au bord de rivières ou de fontaines vous offriront de passer un agréable moment. </p>
-                <p>Aix-en-Provence est donc la destination parfaite pour tout type de personne et pour tout type de plan sportif comme détente.</p>
+                <h3>For who ?</h3>
+                <p>This city offers discovery opportunities for all kinds of people. If you like art, you can visit the studio of the painter Paul Cézanne. Do you like hiking? The hills of the Montagne Sainte-Victoire, just a few minutes from the town center, will offer you hikes all splendid from each other.</p>
+                <p>Prefer to spend a quiet day? No problem, the city's parks or gardens will be able to offer you perfect tranquility, or strolls by rivers or fountains will offer you a pleasant time. </p>
+                <p>Aix-en-Provence is therefore the perfect destination for every type of person and for every type of sporting or relaxation plan.</p>
             </article>
         </section>
         <section>
-            <h2 id="carte">Itinéraires</h2>
+            <h2 id="carte">Itineraries</h2>
         <div class="selection respons" id="selection">
             <button id="menu-toggle" onclick="toggleMenu()">&#9776;</button>
-            <img class="handicap-logo" onclick="toggleCarousel()" src="IMAGES/handicap.svg" alt="handicap logo">
+            <img class="handicap-logo" onclick="toggleCarousel()" src="../IMAGES/handicap.svg" alt="handicap logo">
             <div id="handicap-control" style="display: none;">
-                <button data-index="0" data-carousel="carousel-itineraires-handicap" class="active">Étape 1</button>
-                <button data-index="1" data-carousel="carousel-itineraires-handicap" onclick="toggleMenu()">Étape 2</button>
-                <button data-index="2" data-carousel="carousel-itineraires-handicap" onclick="toggleMenu()">Étape 3</button>
-                <button data-index="3" data-carousel="carousel-itineraires-handicap" onclick="toggleMenu()">Étape 4</button>
+                <button data-index="0" data-carousel="carousel-itineraires-handicap" class="active">Step 1</button>
+                <button data-index="1" data-carousel="carousel-itineraires-handicap" onclick="toggleMenu()">Step 2</button>
+                <button data-index="2" data-carousel="carousel-itineraires-handicap" onclick="toggleMenu()">Step 3</button>
+                <button data-index="3" data-carousel="carousel-itineraires-handicap" onclick="toggleMenu()">Step 4</button>
             </div>
             
             <div id="standard-control">
-                <button data-index="0" data-carousel="carousel-itineraires" class="active" onclick="toggleMenu()">Touriste</button>
-                <button data-index="1" data-carousel="carousel-itineraires" onclick="toggleMenu()">Écolier</button>
-                <button data-index="2" data-carousel="carousel-itineraires" onclick="toggleMenu()">Étudiant</button>
+                <button data-index="0" data-carousel="carousel-itineraires" class="active" onclick="toggleMenu()">Tourist</button>
+                <button data-index="1" data-carousel="carousel-itineraires" onclick="toggleMenu()">Schoolchild</button>
+                <button data-index="2" data-carousel="carousel-itineraires" onclick="toggleMenu()">Student</button>
                 <button data-index="3" data-carousel="carousel-itineraires" onclick="toggleMenu()">Senior</button>
             </div>
         </div>
@@ -76,74 +76,74 @@
                 <div class="description0" id="description-0" style="display: block;">
                     <div>
                         <div class="POI">
-                            <h3>Itinéraire Touristique</h3>
+                            <h3>Tourist Itinerary</h3>
                             <p>
-                                Voici une petite présentation des lieux que nous vous proposons pour ce parcours, parfait pour les touristes souhaitant découvrir les incontournables d'Aix-en-Provence tout en profitant de son ambiance unique et de son riche patrimoine : </p>
+                                Here's a quick overview of the locations we've suggested for this itinerary, perfect for tourists wishing to discover Aix-en-Provence's must-sees while enjoying its unique atmosphere and rich heritage : </p>
                         </div>
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
-                            <h3>Le Petit Train Touristique</h3>
-                            <p>Le Petit Train est l’activité incontournable pour découvrir l’histoire de la ville. C’est l’occasion parfaite d’admirer les bâtiments de la ville tout en ayant des explications sur leur histoire grâce à des casques. Ces casques sont disponibles en 8 langues. Pendant 45 minutes, vous serez plongés dans le passé de la capitale de la Provence.</p>
+                            <h3>The little touristic train</h3>
+                            <p>The little touristic train is the must-do activity for discovering the city's history. It's the perfect opportunity to admire the city's buildings while having their history explained to you via helmets. Helmets are available in 8 languages. For 45 minutes, you'll be immersed in the past of Provence's capital.</p>
                         </div>
-                        <img src="IMAGES/le-petit-train-touristique-cathedrale-saint-sauveur.jpg" alt="le petit train">
+                        <img src="../IMAGES/le-petit-train-touristique-cathedrale-saint-sauveur.jpg" alt="le petit train">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
-                            <h3>Fontaine de la Rotonde</h3>
-                            <p>La Fontaine de la Rotonde est l’un des symboles les plus emblématiques de la ville d’Aix-en-Provence située au coeur de la ville, sur la célèbre cour Mirabeau , elle a été imaginée et créée par l’ingénieur Théophile de Tournadre puis inaugurée en 1860. Cette fontaine représente la transition d’Aix vers une ville plus bourgeoise et élégante.</p>
+                            <h3>Rotonde's fountain</h3>
+                            <p>The Rotonde's fountain is one of the most emblematic symbols of the city of Aix-en-Provence. Located in the heart of the city, on the famous Cour Mirabeau, it was designed and created by engineer Théophile de Tournadre and inaugurated in 1860. The fountain represents Aix's transition to a more bourgeois and elegant city.</p>
                         </div>
-                        <img src="IMAGES/la-rotonde-aix-en-provence.jpg" alt="rotonde">
+                        <img src="../IMAGES/la-rotonde-aix-en-provence.jpg" alt="rotonde">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Cours Mirabeau</h3>
                             <p>Le Cours Mirabeau est une rue qui fait le trait d'union entre le quartier Mazarin au Sud, et la vieille ville commerçante au Nord. Il est aujourd'hui l'un des lieux les plus fréquentés et animés d'Aix-en-Provence. Le Cours Mirabeau est un endroit comportant beaucoup de statues comme celle de Truphème, chacune d’elle sur un côté différent, Nord et Sud. Pour ne pas en dire plus, cette rue possède beaucoup de choses à découvrir !</p>
                         </div>
-                        <img src="IMAGES/cours-mirabeau.jpg" alt="cours-mirabeau">
+                        <img src="../IMAGES/cours-mirabeau.jpg" alt="cours-mirabeau">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Le Marché de Aix-en-Provence</h3>
                             <p>Dans la ville d'Aix-en-Provence il y a autant de marchés que de jours de la semaine. Les marchés sont divers et variés : il y a le marché aux fruits et légumes Place Richelme au centre-ville, ainsi que le marché aux fleurs Place de l’Hôtel de Ville, le marché textile, artisanat et brocante sur le Cours Mirabeau, et le marché aux poissons Place Richelme. Ces lieux de rencontre et de découverte animent la ville de couleurs et de sons.</p>
                         </div>
-                        <img src="IMAGES/marché.webp" alt="marché">
+                        <img src="../IMAGES/marché.webp" alt="marché">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Paroisse Cathédrale Saint Sauveur</h3>
                             <p>La Paroisse Cathédrale Saint Sauveur est un trésor patrimonial remarquable de la ville d’Aix-en-Provence. La cathédrale est construite sur un site où se trouvait un ancien temple païen romain dédié à Apollon. Elle rassemble énormément de styles architecturaux : le style Roman, Paléochrétien, Gothique, Renaissance, et Baroque, en raison des nombreux remaniements qu’elle a subis au fil des siècles.</p>
                         </div>
-                        <img src="IMAGES/cathédrale.jpg" alt="cathédrale">
+                        <img src="../IMAGES/cathédrale.jpg" alt="cathédrale">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Kyoto le Petit Japon</h3>
                             <p>Kyoto le Petit Japon est un restaurant à l'ambiance chaleureuse et authentique situé en plein cœur de la ville. Ils offrent de la nourriture typique japonaise à un prix abordable de 21 à 30 euros. Ils ont une évaluation globale de 5 étoiles en termes de nourriture et 4,5 étoiles en termes de service.</p>
                         </div>
-                        <img src="IMAGES/kyto.jpg" alt="kyto">
+                        <img src="../IMAGES/kyto.jpg" alt="kyto">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Chapelle de la Visitation</h3>
                             <p>La Chapelle de la Visitation est la première œuvre de Pierre Pavillon et date des années 1650. Cette chapelle se situe dans la partie nord de l’ensemble du monastère. Récemment, elle a accueilli le tournage du film La Nonne 2, ce qui en fait aujourd’hui un lieu incontournable pour les fans de films d’horreur.</p>
                         </div>
-                        <img src="IMAGES/chapelle-de-la-visitation.jpg" alt="Chapelle de la visitation">
+                        <img src="../IMAGES/chapelle-de-la-visitation.jpg" alt="Chapelle de la visitation">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Musée Granet</h3>
                             <p>Le Musée Granet est un musée de beaux-arts, d'archéologie et d'art décoratif, situé à Saint-Jean-de-Malte à Aix-en-Provence. Ouvert pour la première fois en 1838, il expose des sculptures, peintures, pièces archéologiques et une collection égyptienne. Ce musée regorge d’histoires à découvrir, qu’elles soient archéologiques ou égyptiennes. Nous vous invitons à le visiter !</p>
                         </div>
-                        <img src="IMAGES/musee-granet.jpg" alt="musee granet">
+                        <img src="../IMAGES/musee-granet.jpg" alt="musee granet">
                     </div>
                     
                 </div>
@@ -155,36 +155,36 @@
                         </div>
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Muséum d’Histoire Naturelle</h3>
                             <p>Le Muséum d’Histoire Naturelle est connu pour sa collection d’œufs de dinosaures à tel point que la ville est surnommée Eggs-en-Provence par les paléontologues. Le Muséum organise depuis 1994 des fouilles paléontologiques. Créé en 1838, il compte aujourd’hui près de 470 000 spécimens dans divers domaines des sciences naturelles : la zoologie, la paléontologie, la botanique, la géologie, mais aussi la préhistoire et l'ethnologie.</p>
                         </div>
-                        <img src="IMAGES/musee-histoire-naturelle.jpg" alt="museum d'histoire naturelle">
+                        <img src="../IMAGES/musee-histoire-naturelle.jpg" alt="museum d'histoire naturelle">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Planétarium Peiresc</h3>
                             <p>Le Planétarium Peiresc est le meilleur moyen d’initier les enfants à l’astronomie et aux sciences de la Terre. Il propose diverses activités, cours d’astronomie, et expériences tout au long de l’année, permettant de mettre des étoiles dans les yeux des enfants.</p>
                         </div>
-                        <img src="IMAGES/planetarium.jpg" alt="planetarium">
+                        <img src="../IMAGES/planetarium.jpg" alt="planetarium">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Parc Saint Mitre</h3>
                             <p>Le Parc Saint Mitre abrite le Muséum d’Histoire Naturelle, le Planétarium et le jardin japonais. C’est un endroit magnifique à visiter et parfait pour jouer. Les décors japonais, si différents de ce que l’on a l’habitude de voir, donnent l’impression d’être perdu dans un rêve.</p>
                         </div>
-                        <img src="IMAGES/parc-st-mitre.jpg" alt="parc Saint mitre">
+                        <img src="../IMAGES/parc-st-mitre.jpg" alt="parc Saint mitre">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>La fondation vasarely</h3>
                             <p>Ouvert en 1976, la Fondation Vasarely témoigne et illustre la recherche expérimentale de l’artiste. Il propose des parcours de découverte des œuvres par des jeux de piste pour les plus grands et par des comptes pour les plus jeunes.</p>
                         </div>
-                        <img src="IMAGES/musee-vasareli.jpg" alt="Fondation vasarely">
+                        <img src="../IMAGES/musee-vasareli.jpg" alt="Fondation vasarely">
                     </div>
                 </div>
                 <div class="description0" id="description-2" style="display: none;">
@@ -195,52 +195,52 @@
                         </div>
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Bibliothèque des Fenouillères</h3>
                             <p>La bibliothèque des Fenouillères est une bibliothèque universitaire située près de l’IUT et de la FAC de lettres. Elle propose 67h d’ouverture hebdomadaire, plus de 1 000 places assises, 150 postes informatiques, une couverture wifi, une boîte de retours de livres, 11 salles de travail en groupe, des photocopieurs et imprimantes, des équipements pour malvoyants, des DVD, un coin presse, et des espaces détente. Elle dispose de collections adaptées aux Arts, Lettres, Langues et Sciences humaines. À côté, on retrouve le resto’U des Fenouillères et une cafétéria du Crous.</p>
                         </div>
-                        <img src="IMAGES/fenouillère.png" alt="fenouillère">
+                        <img src="../IMAGES/fenouillère.png" alt="fenouillère">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Musée Granet</h3>
                             <p>Le Musée Granet, situé à Saint-Jean-de-Malte à Aix-en-Provence, est un musée de beaux-arts, d'archéologie et d'art décoratif. Ouvert en 1838, il expose des sculptures, peintures, pièces archéologiques et une collection égyptienne. Ce musée regorge d’histoires fascinantes à découvrir, qu’elles soient archéologiques ou égyptiennes. Nous vous invitons à le visiter !</p>
                         </div>
-                        <img src="IMAGES/musee-granet.jpg" alt="musee granet">
+                        <img src="../IMAGES/musee-granet.jpg" alt="musee granet">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Mistral Club</h3>
                             <p>Le Mistral Club est une discothèque située dans le centre-ville d'Aix. Ouverte du mardi au samedi en hiver, et du lundi au dimanche pendant les vacances étudiantes, elle propose des soirées à thème comme les Ladies night ou des soirées électro.</p>
                         </div>
-                        <img src="IMAGES/boite-de-nuit.jpg" alt="club mistral">
+                        <img src="../IMAGES/boite-de-nuit.jpg" alt="club mistral">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Cours Mirabeau</h3>
                             <p>Le Cours Mirabeau est une rue reliant le quartier Mazarin au Sud à la vieille ville commerçante au Nord. C’est l’un des lieux les plus fréquentés et animés d'Aix-en-Provence, abritant de nombreuses statues, comme celle de Truphème. Cette rue offre bien des surprises à découvrir !</p>
                         </div>
-                        <img src="IMAGES/cours-mirabeau.jpg" alt="Cours Mirabeau">
+                        <img src="../IMAGES/cours-mirabeau.jpg" alt="Cours Mirabeau">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Cinéma Le Cézanne</h3>
                             <p>Le cinéma Le Cézanne, comme d’autres cinémas aixois, offre une variété de films pour une soirée, une après-midi ou une matinée de détente devant un nouveau film.</p>
                         </div>
-                        <img src="IMAGES/cinema.jpg" alt="cinema Cézanne">
+                        <img src="../IMAGES/cinema.jpg" alt="cinema Cézanne">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Escape Game</h3>
                             <p>Les Escape Games d’Aix-en-Provence sont nombreux et proposent des moments de fun, seul ou en équipe. Nous recommandons l’escape game extérieur Hunting Town, qui permet de découvrir des lieux emblématiques tout en s’amusant, avec une histoire mêlant dragon, magie et religions.</p>
                         </div>
-                        <img src="IMAGES/escape-game-famille.jpg" alt="escape game">
+                        <img src="../IMAGES/escape-game-famille.jpg" alt="escape game">
                     </div>
                     
                 </div>
@@ -248,48 +248,48 @@
                     <div>
                         <div class="POI">
                             <h3>Itinéraire seniors</h3>
-                            <p>Voici une petite présentation des lieux que nous vous proposons pour ce parcours, conçu pour offrir une découverte tranquille et agréable d'Aix-en-Provence, avec des étapes accessibles et adaptées aux seniors :</p>
+                            <p>Voici une petite présentation des lieux que nous vous proposons pour ce parcours, conçu pour offrir une découverte tranquille et agréable d'Aix-en-Provence, avec des Steps accessibles et adaptées aux seniors :</p>
                         </div>
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Chapelle de la Visitation</h3>
                             <p>La Chapelle de la Visitation, première œuvre de Pierre Pavillon datant des années 1650, se situe dans la partie nord de l’ensemble du monastère. Récemment, elle a accueilli le tournage du film *La Nonne 2*, devenant ainsi un lieu incontournable pour les fans de films d’horreur.</p>
                         </div>
-                        <img src="IMAGES/chapelle-de-la-visitation.jpg" alt="Chapelle de la visitation">
+                        <img src="../IMAGES/chapelle-de-la-visitation.jpg" alt="Chapelle de la visitation">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Musée Granet</h3>
                             <p>Le Musée Granet, situé à Saint-Jean-de-Malte à Aix-en-Provence, est un musée de beaux-arts, d'archéologie et d'art décoratif. Ouvert en 1838, il expose des sculptures, peintures, pièces archéologiques et une collection égyptienne. Ce musée regorge d’histoires fascinantes à découvrir, qu’elles soient archéologiques ou égyptiennes. Nous vous invitons à le visiter !</p>
                         </div>
-                        <img src="IMAGES/musee-granet.jpg" alt="musee granet">
+                        <img src="../IMAGES/musee-granet.jpg" alt="musee granet">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Centre d’Art</h3>
                             <p>Le Centre d’Art est un espace proposant des ateliers, des événements, et bien plus encore. C'est un lieu de réflexion et de dialogue entre artistes et publics. Son objectif est de rendre l'art accessible à tous, en encourageant l'interaction entre les œuvres et les visiteurs.</p>
                         </div>
-                        <img src="IMAGES/centre-d-art.jpg" alt="centre d'art">
+                        <img src="../IMAGES/centre-d-art.jpg" alt="centre d'art">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Le Petit Train Touristique</h3>
                             <p>Le Petit Train est une activité incontournable pour découvrir l’histoire de la ville. Pendant 45 minutes, admirez les bâtiments de la ville tout en écoutant des explications historiques via des casques disponibles en 8 langues. Plongez dans le passé de la capitale de la Provence !</p>
                         </div>
-                        <img src="IMAGES/le-petit-train-touristique-cathedrale-saint-sauveur.jpg" alt="Petit train">
+                        <img src="../IMAGES/le-petit-train-touristique-cathedrale-saint-sauveur.jpg" alt="Petit train">
                     </div>
                     <div class="description">
-                        <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                        <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                         <div class="POI">
                             <h3>Thermes Sextius</h3>
                             <p>Les Thermes Sextius sont dédiés à la beauté et au bien-être. Spa, hammam, massages, aquasports... Ce lieu propose une multitude de soins pour prendre soin de votre corps et apaiser votre esprit.</p>
                         </div>
-                        <img src="IMAGES/thermes-sextius.jpg" alt="thermes-sextius">
+                        <img src="../IMAGES/thermes-sextius.jpg" alt="thermes-sextius">
                     </div>
                 </div>
             </div>
@@ -299,51 +299,51 @@
                     <p>Voici une petite présentation des lieux que nous vous proposons pour ce parcours, parfait pour les personnes en situation de handicap souhaitant découvrir les incontournables d'Aix-en-Provence tout en profitant de son ambiance unique et de son riche patrimoine : </p>
 
                 <div class="description">
-                    <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                    <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                     <div class="POI">
                         <h3>La fondation vasarely</h3>
                         <p>Ouvert en 1976, la Fondation Vasarely témoigne et illustre la recherche expérimentale de l’artiste. Il propose des parcours de découverte des œuvres par des jeux de piste pour les plus grands et par des comptes pour les plus jeunes.</p>
                     </div>
-                    <img src="IMAGES/musee-vasareli.jpg" alt="Fondation vasarely">
+                    <img src="../IMAGES/musee-vasareli.jpg" alt="Fondation vasarely">
                 </div>
                 <div class="description">
-                    <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                    <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                     <div class="POI">
                         <h3>Place des cardeurs</h3>
                         <p>Ouvert en 1963, la Place des Cardeurs est une place incontournable d'Aix en Provence. Charmante et récente, cette place bordée de maisons colorées saura vous évoquer une atmosphère inspirée d'Italie.</p>
                     </div>
-                    <img src="IMAGES/place-cardeurs.jpg" alt="Place des cardeurs">
+                    <img src="../IMAGES/place-cardeurs.jpg" alt="Place des cardeurs">
                 </div>
                 <div class="description">
-                    <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                    <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                     <div class="POI">
                         <h3>Musée Granet</h3>
                         <p>Le Musée Granet est un musée de beaux-arts, d'archéologie et d'art décoratif, situé à Saint-Jean-de-Malte à Aix-en-Provence. Ouvert pour la première fois en 1838, il expose des sculptures, peintures, pièces archéologiques et une collection égyptienne. Ce musée regorge d’histoires à découvrir, qu’elles soient archéologiques ou égyptiennes. Nous vous invitons à le visiter !</p>
                     </div>
-                    <img src="IMAGES/musee-granet.jpg" alt="musee granet">
+                    <img src="../IMAGES/musee-granet.jpg" alt="musee granet">
                 </div>
                 <div class="description">
-                    <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                    <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                     <div class="POI">
                         <h3>Une Belle Journée</h3>
                         <p>Le café Une Belle Journée vous offrira un moment de détente agréable avec un accueil chaleureux. Vous pourrez choisir parmit une vaste liste de produits, de quoi vous reposer avant de reprendre la suite du parcours !</p>
                     </div>
-                    <img src="IMAGES/les-cafes-gourmands.jpg" alt="Une Belle Journée">
+                    <img src="../IMAGES/les-cafes-gourmands.jpg" alt="Une Belle Journée">
                 </div>
                 <div class="description">
-                    <img class="pin" src="IMAGES/pin.svg" alt="pin map">
+                    <img class="pin" src="../IMAGES/pin.svg" alt="pin map">
                     <div class="POI">
                         <h3>Parc Jourdan</h3>
                         <p>Le Parc Jourdan est l'un des plus grand parc de tout Aix. Créé en 1926 il s'agit d'un endroit emblématique de la ville! Cet espace vert vous permettra de vous offrir une certaine déconnection du monde urbanisé.</p>
                     </div>
-                    <img src="IMAGES/parc-jourdan.webp" alt="Parc jourdan">
+                    <img src="../IMAGES/parc-jourdan.webp" alt="Parc jourdan">
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <a href="https://iut.univ-amu.fr/fr" target="_blank"><img src="IMAGES/iut-logo.png" alt="IUT AIX MARSEILLE LOGO"></a>
+        <a href="https://iut.univ-amu.fr/fr" target="_blank"><img src="../IMAGES/iut-logo.png" alt="IUT AIX MARSEILLE LOGO"></a>
         <div>
             <h3>Créé par</h3>
             <ul>
@@ -355,28 +355,28 @@
             </ul>
         </div>
         <div class="reseaux">
-            <h3>Réseaux de la mairie d'Aix</h3>
+            <h3>City of Aix's Social Media</h3>
             <div class="icones">
                 <a href="https://www.facebook.com/aixmaville" target="_blank" aria-label="Facebook">
-                    <img src="IMAGES/facebook.svg" alt="Facebook">
+                    <img src="../IMAGES/facebook.svg" alt="Facebook">
                 </a>
                 <a href="https://x.com/aixmaville?lang=fr" target="_blank" aria-label="X (ancien Twitter)">
-                    <img src="IMAGES/x.svg" alt="X">
+                    <img src="../IMAGES/x.svg" alt="X">
                 </a>
                 <a href="https://www.instagram.com/aixmaville" target="_blank" aria-label="Instagram">
-                    <img src="IMAGES/instagram.svg" alt="Instagram">
+                    <img src="../IMAGES/instagram.svg" alt="Instagram">
                 </a>
                 <a href="https://www.tiktok.com/@aixmaville" target="_blank" aria-label="TikTok">
-                    <img src="IMAGES/tiktok.svg" alt="TikTok">
+                    <img src="../IMAGES/tiktok.svg" alt="TikTok">
                 </a>
                 <a href="https://www.youtube.com/channel/UCk4d7b-dLOu1X4kLlBVJhzg" target="_blank" aria-label="YouTube">
-                    <img src="IMAGES/youtube.svg" alt="YouTube">
+                    <img src="../IMAGES/youtube.svg" alt="YouTube">
                 </a>
                 <a href="https://apps.apple.com/fr/app/aix-ma-ville/id494548366" target="_blank" aria-label="Apple Store">
-                    <img src="IMAGES/apple.svg" alt="Apple">
+                    <img src="../IMAGES/apple.svg" alt="Apple">
                 </a>
                 <a href="https://play.google.com/store/apps/details?id=fr.archriss.aixmobile.app" target="_blank" aria-label="Google Play">
-                    <img src="IMAGES/android.svg" alt="Android">
+                    <img src="../IMAGES/android.svg" alt="Android">
                 </a>
             </div>
         </div>
@@ -397,6 +397,6 @@
         </div>
         
     </footer>
-    <script src="JAVASCRIPT/main.js"></script>
+    <script src="../JAVASCRIPT/main.js"></script>
 </body>
 </html>

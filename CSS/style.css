@@ -27,6 +27,17 @@ header{
     padding: 1rem;
 }
 
+header div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.drapeaux{
+    height: 50px;
+    width: 75px;
+}
+
 header img{
     height: 100px;
 }
@@ -165,13 +176,20 @@ button.active {
     width: 100%;
     margin-top: 35px;
     padding-right: 10px;
+    align-items: center;
 }
 
 .description img{
-    margin: 50px;
-    display: block;
+    margin: 20px;
+    height: 200px;
+    border-radius: 20px;
 }
 
+.pin{
+    margin: 50px !important;
+    height: 60px !important;
+    display: block;
+}
 .POI{
     display: flex;
     flex-direction: column;
@@ -263,6 +281,7 @@ p:hover{
     }
     h1{
         text-align: center;
+        margin: 10px;
     }
     .selection button{
         background-color: white;
@@ -277,22 +296,36 @@ p:hover{
         color: white;
         border-color: #0056b3;
     }
-    .description img{
+    .pin{
         display: none;
+    }
+    .description img{
+        height: auto;
+        width: 98%;
+        margin: 10px;
+    }
+    .description{
+        flex-direction: column;
     }
     footer{
         flex-direction: column;
-        align-items: baseline;
+        align-items: center;
     }
     footer div{
         width: 100%;
         border-top: 2px solid black;
+    }
+    header div{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
     }
 }
 
 @media (max-width: 1316px) {
     .selection {
         flex-direction: column;
+        border-bottom: 2px solid #333;
     }
     .selection div{
         display: flex;

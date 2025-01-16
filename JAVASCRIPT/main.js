@@ -45,18 +45,19 @@ function toggleCarousel() {
     const handicapLogo = document.querySelector('.handicap-logo');
     const standardDescriptions = document.querySelector('.descriptions-standard');
     const handicapDescriptions = document.querySelector('.descriptions-handicap');
-
-    // Affichage des carrousels et contrôles
+    const carte = document.getElementById('carte');
+    if (carte) {
+        carte.scrollIntoView({ behavior: 'smooth' });
+    }
+    
     standardControl.style.display = isHandicapMode ? 'none' : 'block';
     standardCarousel.style.display = isHandicapMode ? 'none' : 'block';
     handicapControl.style.display = isHandicapMode ? 'block' : 'none';
     handicapCarousel.style.display = isHandicapMode ? 'block' : 'none';
 
-    // Affichage des descriptions
     standardDescriptions.style.display = isHandicapMode ? 'none' : 'block';
     handicapDescriptions.style.display = isHandicapMode ? 'block' : 'none';
 
-    // Changement de couleur du logo
     handicapLogo.style.backgroundColor = isHandicapMode ? '#23d300' : '#007bff';
 }
 
@@ -77,4 +78,8 @@ document.querySelectorAll('#standard-control button, #handicap-control button').
 function toggleMenu() {
     const selection = document.getElementById('selection');
     selection.classList.toggle('respons'); 
+    const carte = document.getElementById('carte');
+    if (carte) {
+        carte.scrollIntoView({ behavior: 'smooth' });
+    }
 }
